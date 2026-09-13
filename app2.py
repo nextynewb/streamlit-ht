@@ -92,10 +92,11 @@ OPTIMIZER_DICT = {
 
 # Sampling algorithms
 SAMPLING_ALGORITHMS = {
-    "TPE": optuna.samplers.TPESampler,
+    "Bayesian Optimization": optuna.samplers.TPESampler,
     "Random": optuna.samplers.RandomSampler,
-    "NSGAII": optuna.samplers.NSGAIISampler,
-    "NSGAIII": optuna.samplers.NSGAIIISampler,
+    'Grid': optuna.samplers.GridSampler,
+    'GA': optuna.samplers.NSGAIISampler,
+
 }
 
 def limit_gpu_memory():
@@ -706,9 +707,9 @@ def load_study(dataset_name, model_name, algorithm):
 
 def streamlit_ui():
     """Streamlit UI for the hyperparameter optimization tool"""
-    st.set_page_config(page_title="NSGA-III Hyperparameter Optimization", layout="wide")
+    st.set_page_config(page_title="Deep Learning Hyperparameter Optimization", layout="wide")
     
-    st.title("NSGA-III Hyperparameter Optimization")
+    st.title("Deep Learning Hyperparameter Optimization")
     
     # Sidebar for configuration
     st.sidebar.header("Configuration")
@@ -1031,7 +1032,7 @@ def streamlit_ui():
 
 def command_line_interface():
     """Command-line interface for the hyperparameter optimization tool"""
-    parser = argparse.ArgumentParser(description="NSGA-III Hyperparameter Optimization")
+    parser = argparse.ArgumentParser(description="Neural Network Hyperparameter Optimization")
     
     parser.add_argument("--dataset", type=str, default="cifar_10",
                         choices=list(CONFIGURATIONS.keys()),

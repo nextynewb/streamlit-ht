@@ -1,0 +1,192 @@
+[
+    {
+        "trial": 0,
+        "accuracy": 0.9025999903678894,
+        "params": 318678.0,
+        "f1": 0.9015202224335328,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 3,
+            "activation": "tanh",
+            "filter_2": 64,
+            "kernel_size2": 5,
+            "fc1_units": 240,
+            "fc2_units": 84,
+            "optimizer": "Adamax",
+            "learning_rate": 0.1,
+            "batch_size": 64,
+            "epochs": 40
+        }
+    },
+    {
+        "trial": 1,
+        "accuracy": 0.984000027179718,
+        "params": 59690.0,
+        "f1": 0.9838617058966899,
+        "hyperparameters": {
+            "filter_1": 16,
+            "kernel_size1": 5,
+            "activation": "selu",
+            "filter_2": 16,
+            "kernel_size2": 5,
+            "fc1_units": 120,
+            "fc2_units": 168,
+            "optimizer": "Adagrad",
+            "learning_rate": 0.01,
+            "batch_size": 128,
+            "epochs": 30
+        }
+    },
+    {
+        "trial": 2,
+        "accuracy": 0.9801999926567078,
+        "params": 149106.0,
+        "f1": 0.9800339118890848,
+        "hyperparameters": {
+            "filter_1": 6,
+            "kernel_size1": 3,
+            "activation": "elu",
+            "filter_2": 32,
+            "kernel_size2": 5,
+            "fc1_units": 240,
+            "fc2_units": 84,
+            "optimizer": "Nadam",
+            "learning_rate": 0.001,
+            "batch_size": 512,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 3,
+        "accuracy": 0.916700005531311,
+        "params": 276818.0,
+        "f1": 0.9155024709210068,
+        "hyperparameters": {
+            "filter_1": 6,
+            "kernel_size1": 3,
+            "activation": "elu",
+            "filter_2": 64,
+            "kernel_size2": 5,
+            "fc1_units": 240,
+            "fc2_units": 84,
+            "optimizer": "Adamax",
+            "learning_rate": 0.0001,
+            "batch_size": 512,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 4,
+        "accuracy": 0.9801999926567078,
+        "params": 61870.0,
+        "f1": 0.9800178146879498,
+        "hyperparameters": {
+            "filter_1": 16,
+            "kernel_size1": 5,
+            "activation": "elu",
+            "filter_2": 16,
+            "kernel_size2": 3,
+            "fc1_units": 120,
+            "fc2_units": 84,
+            "optimizer": "Nadam",
+            "learning_rate": 0.01,
+            "batch_size": 256,
+            "epochs": 20
+        }
+    },
+    {
+        "trial": 5,
+        "accuracy": 0.8881000280380249,
+        "params": 232954.0,
+        "f1": 0.886274551923871,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 3,
+            "activation": "elu",
+            "filter_2": 64,
+            "kernel_size2": 3,
+            "fc1_units": 120,
+            "fc2_units": 168,
+            "optimizer": "SGD",
+            "learning_rate": 0.001,
+            "batch_size": 256,
+            "epochs": 30
+        }
+    },
+    {
+        "trial": 6,
+        "accuracy": 0.9643999934196472,
+        "params": 143874.0,
+        "f1": 0.9640580617344578,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 5,
+            "activation": "relu",
+            "filter_2": 16,
+            "kernel_size2": 3,
+            "fc1_units": 240,
+            "fc2_units": 168,
+            "optimizer": "Adadelta",
+            "learning_rate": 0.01,
+            "batch_size": 64,
+            "epochs": 40
+        }
+    },
+    {
+        "trial": 7,
+        "accuracy": 0.9861000180244446,
+        "params": 117214.0,
+        "f1": 0.9859714405027203,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 5,
+            "activation": "elu",
+            "filter_2": 32,
+            "kernel_size2": 3,
+            "fc1_units": 120,
+            "fc2_units": 84,
+            "optimizer": "Adagrad",
+            "learning_rate": 0.1,
+            "batch_size": 128,
+            "epochs": 30
+        }
+    },
+    {
+        "trial": 8,
+        "accuracy": 0.696399986743927,
+        "params": 340274.0,
+        "f1": 0.6503114095513973,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 5,
+            "activation": "relu",
+            "filter_2": 64,
+            "kernel_size2": 5,
+            "fc1_units": 240,
+            "fc2_units": 168,
+            "optimizer": "SGD",
+            "learning_rate": 0.001,
+            "batch_size": 256,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 9,
+        "accuracy": 0.11349999904632568,
+        "params": 318678.0,
+        "f1": 0.0203861697350696,
+        "hyperparameters": {
+            "filter_1": 32,
+            "kernel_size1": 3,
+            "activation": "elu",
+            "filter_2": 64,
+            "kernel_size2": 5,
+            "fc1_units": 240,
+            "fc2_units": 84,
+            "optimizer": "Adagrad",
+            "learning_rate": 1.0,
+            "batch_size": 128,
+            "epochs": 40
+        }
+    }
+]

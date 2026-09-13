@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# added by workspace backup
+.DS_Store
+node_modules/
+*.pyc
+.ipynb_checkpoints/
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+/sl-env/

@@ -1,0 +1,182 @@
+[
+    {
+        "trial": 0,
+        "accuracy": 0.9483000040054321,
+        "params": 50890.0,
+        "f1": 0.9476842077525551,
+        "hyperparameters": {
+            "hidden_layers": 1,
+            "activation": "relu",
+            "units_0": 64,
+            "dropout_0": 0.2,
+            "optimizer": "SGD",
+            "learning_rate": 0.01,
+            "batch_size": 32,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 1,
+        "accuracy": 0.953499972820282,
+        "params": 64010.0,
+        "f1": 0.9529846597653855,
+        "hyperparameters": {
+            "hidden_layers": 3,
+            "activation": "elu",
+            "units_0": 64,
+            "dropout_0": 0.4,
+            "units_1": 64,
+            "dropout_1": 0.0,
+            "units_2": 128,
+            "dropout_2": 0.4,
+            "optimizer": "SGD",
+            "learning_rate": 0.1,
+            "batch_size": 128,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 2,
+        "accuracy": 0.9692999720573425,
+        "params": 407050.0,
+        "f1": 0.969009241987778,
+        "hyperparameters": {
+            "hidden_layers": 1,
+            "activation": "tanh",
+            "units_0": 512,
+            "dropout_0": 0.2,
+            "optimizer": "Adagrad",
+            "learning_rate": 0.1,
+            "batch_size": 128,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 3,
+        "accuracy": 0.09799999743700027,
+        "params": 200010.0,
+        "f1": 0.01785063752276867,
+        "hyperparameters": {
+            "hidden_layers": 3,
+            "activation": "selu",
+            "units_0": 128,
+            "dropout_0": 0.4,
+            "units_1": 512,
+            "dropout_1": 0.0,
+            "units_2": 64,
+            "dropout_2": 0.0,
+            "optimizer": "RMSprop",
+            "learning_rate": 0.1,
+            "batch_size": 32,
+            "epochs": 20
+        }
+    },
+    {
+        "trial": 4,
+        "accuracy": 0.6421999931335449,
+        "params": 351306.0,
+        "f1": 0.5910146058124124,
+        "hyperparameters": {
+            "hidden_layers": 3,
+            "activation": "relu",
+            "units_0": 64,
+            "dropout_0": 0.3,
+            "units_1": 512,
+            "dropout_1": 0.3,
+            "units_2": 512,
+            "dropout_2": 0.1,
+            "optimizer": "SGD",
+            "learning_rate": 0.001,
+            "batch_size": 512,
+            "epochs": 30
+        }
+    },
+    {
+        "trial": 5,
+        "accuracy": 0.9391000270843506,
+        "params": 101770.0,
+        "f1": 0.9383608367015721,
+        "hyperparameters": {
+            "hidden_layers": 1,
+            "activation": "elu",
+            "units_0": 128,
+            "dropout_0": 0.5,
+            "optimizer": "Adadelta",
+            "learning_rate": 0.1,
+            "batch_size": 128,
+            "epochs": 30
+        }
+    },
+    {
+        "trial": 6,
+        "accuracy": 0.10279999673366547,
+        "params": 335114.0,
+        "f1": 0.018643453028654333,
+        "hyperparameters": {
+            "hidden_layers": 3,
+            "activation": "elu",
+            "units_0": 256,
+            "dropout_0": 0.0,
+            "units_1": 256,
+            "dropout_1": 0.5,
+            "units_2": 256,
+            "dropout_2": 0.1,
+            "optimizer": "RMSprop",
+            "learning_rate": 1.0,
+            "batch_size": 512,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 7,
+        "accuracy": 0.948199987411499,
+        "params": 407050.0,
+        "f1": 0.9477651257272633,
+        "hyperparameters": {
+            "hidden_layers": 1,
+            "activation": "selu",
+            "units_0": 512,
+            "dropout_0": 0.1,
+            "optimizer": "Adamax",
+            "learning_rate": 0.1,
+            "batch_size": 64,
+            "epochs": 10
+        }
+    },
+    {
+        "trial": 8,
+        "accuracy": 0.975600004196167,
+        "params": 381770.0,
+        "f1": 0.975400670750642,
+        "hyperparameters": {
+            "hidden_layers": 3,
+            "activation": "relu",
+            "units_0": 64,
+            "dropout_0": 0.2,
+            "units_1": 1024,
+            "dropout_1": 0.1,
+            "units_2": 256,
+            "dropout_2": 0.4,
+            "optimizer": "RMSprop",
+            "learning_rate": 0.0001,
+            "batch_size": 128,
+            "epochs": 40
+        }
+    },
+    {
+        "trial": 9,
+        "accuracy": 0.5843999981880188,
+        "params": 814090.0,
+        "f1": 0.5787604594611835,
+        "hyperparameters": {
+            "hidden_layers": 1,
+            "activation": "selu",
+            "units_0": 1024,
+            "dropout_0": 0.5,
+            "optimizer": "Adam",
+            "learning_rate": 1.0,
+            "batch_size": 64,
+            "epochs": 30
+        }
+    }
+]
